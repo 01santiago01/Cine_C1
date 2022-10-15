@@ -74,7 +74,7 @@ if(usuario === 'admin'){
                                                     console.log('Peliculas seleccionada: ', peli[0]);
                                                     console.log('Teatro seleccionado: ', teatros[0]);
                                                     console.log('dia seleccionado: ', dia[0]);
-                                                    console.log('funcion: ', funciones[3]);
+                                                    console.log('funcion: ', funciones[2]);
                                                     console.log('Cantidad de boletas: ', Qsillas);
                                                     console.log('Total: ', Qsillas * ValorBotetaQ);
 
@@ -121,7 +121,7 @@ if(usuario === 'admin'){
                                                     console.log('Peliculas seleccionada: ', peli[0]);
                                                     console.log('Teatro seleccionado: ', teatros[0]);
                                                     console.log('dia seleccionado: ', dia[0]);
-                                                    console.log('funcion: ', funciones[3]);
+                                                    console.log('funcion: ', funciones[2]);
                                                     console.log('Cantidad de boletas: ', Qsillas);
                                                     console.log('Total: ', Qsillas * ValorBotetaQ);
 
@@ -370,6 +370,52 @@ if(usuario === 'admin'){
 
                                     if (Opciondia === '1') {
                                         funciones.forEach(function (elemento) {
+                                            console.log(elemento);});
+                                        rl.question('funciones del teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ' , Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+
+                                    }
+                                    if (Opciondia === '2') {
+                                        funciones.forEach(function (elemento) {
                                             console.log(elemento);
                                         });
                                         rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
@@ -379,8 +425,237 @@ if(usuario === 'admin'){
                                                     console.log('Muchas gracias por su compra');
                                                     console.log('Peliculas seleccionada: ', peli[0]);
                                                     console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[1]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
                                                     console.log('dia seleccionado: ', dia[0]);
-                                                    console.log('funcion: ', fuinciones[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '3') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[2]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+}
+                                    if (Opciondia === '4') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[3]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+}
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '5') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[4]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '6') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[5]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if(Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                    if (Opciondia === '7') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[6]);
+                                                    console.log('funcion: ', funciones[0]);
                                                     console.log('Cantidad de boletas: ', Qsillas);
                                                     console.log('Total: ', Qsillas * ValorBotetaQ);
 
@@ -414,17 +689,8 @@ if(usuario === 'admin'){
                                                 });
                                             }
 
-                                        });
-
-                                    }
-                                    if (Opciondia === '2') { dia[1] }
-                                    if (Opciondia === '3') { dia[2] }
-                                    if (Opciondia === '4') { dia[3] }
-                                    if (Opciondia === '5') { dia[4] }
-                                    if (Opciondia === '6') { dia[5] }
-                                    if (Opciondia === '7') { dia[6] }
-                                });
-                            }
+                                        }); }
+                                });}
                             if (OpcionTeatro === '3') {
                                 dia.forEach(function (elemento) {
                                     console.log(elemento);
@@ -433,6 +699,52 @@ if(usuario === 'admin'){
                                 rl.question('Escoge el dia disponible ', (Opciondia) => {
 
                                     if (Opciondia === '1') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);});
+                                        rl.question('funciones del teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ' , Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+
+                                    }
+                                    if (Opciondia === '2') {
                                         funciones.forEach(function (elemento) {
                                             console.log(elemento);
                                         });
@@ -443,7 +755,236 @@ if(usuario === 'admin'){
                                                     console.log('Muchas gracias por su compra');
                                                     console.log('Peliculas seleccionada: ', peli[0]);
                                                     console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[1]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
                                                     console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '3') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[2]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+}
+                                    if (Opciondia === '4') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[3]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+}
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '5') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[4]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '6') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[5]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if(Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                    if (Opciondia === '7') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[0]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[6]);
                                                     console.log('funcion: ', funciones[0]);
                                                     console.log('Cantidad de boletas: ', Qsillas);
                                                     console.log('Total: ', Qsillas * ValorBotetaQ);
@@ -478,23 +1019,5003 @@ if(usuario === 'admin'){
                                                 });
                                             }
 
+                                        }); }
+                                }); }
+                            });
+                        
+                    }
+                    if (OpcionPeli === '2') {teatros.forEach(function (elemento) {
+                        console.log(elemento);});
+
+                    rl.question('Escoge el teatro disponible ', (OpcionTeatro) => {
+                        if (OpcionTeatro === '1') {
+                            dia.forEach(function (elemento) {
+                                console.log(elemento);
+                            });
+
+                            rl.question('Escoge el dia disponible ', (Opciondia) => {
+
+                                if (Opciondia === '1') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);});
+                                    rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ' , Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if (Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+
+                                    });
+
+                                }
+                                if (Opciondia === '2') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);
+                                    });
+                                    rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[1]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if (Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+
+                                    }); }
+                                if (Opciondia === '3') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);
+                                    });
+                                    rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[2]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if (Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+
+                                    });
+}
+                                if (Opciondia === '4') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);
+                                    });
+                                    rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[3]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if (Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+}
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+
+                                    }); }
+                                if (Opciondia === '5') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);
+                                    });
+                                    rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[4]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if (Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+
+                                    }); }
+                                if (Opciondia === '6') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);
+                                    });
+                                    rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[5]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if(Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+                                        }
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+                                        }
+
+                                    }); }
+                                if (Opciondia === '7') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);
+                                    });
+                                    rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[6]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if (Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+                                        }
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[0]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+                                        }
+
+                                    }); }
+                            });
+                        }
+                        if (OpcionTeatro === '2') {
+                            dia.forEach(function (elemento) {
+                                console.log(elemento);
+                            });
+
+                            rl.question('Escoge el dia disponible ', (Opciondia) => {
+
+                                if (Opciondia === '1') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);});
+                                    rl.question('funciones del teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ' , Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if (Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+
+                                    });
+
+                                }
+                                if (Opciondia === '2') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);
+                                    });
+                                    rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[1]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if (Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+
+                                    }); }
+                                if (Opciondia === '3') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);
+                                    });
+                                    rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[2]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if (Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+
+                                    });
+}
+                                if (Opciondia === '4') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);
+                                    });
+                                    rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[3]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if (Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+}
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+
+                                    }); }
+                                if (Opciondia === '5') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);
+                                    });
+                                    rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[4]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if (Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+
+                                    }); }
+                                if (Opciondia === '6') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);
+                                    });
+                                    rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[5]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if(Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+                                        }
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+                                        }
+
+                                    }); }
+                                if (Opciondia === '7') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);
+                                    });
+                                    rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[6]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if (Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+                                        }
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[1]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+                                        }
+
+                                    }); }
+                            });}
+                        if (OpcionTeatro === '3') {
+                            dia.forEach(function (elemento) {
+                                console.log(elemento);
+                            });
+
+                            rl.question('Escoge el dia disponible ', (Opciondia) => {
+
+                                if (Opciondia === '1') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);});
+                                    rl.question('funciones del teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ' , Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if (Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+
+                                    });
+
+                                }
+                                if (Opciondia === '2') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);
+                                    });
+                                    rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[1]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if (Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+
+                                    }); }
+                                if (Opciondia === '3') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);
+                                    });
+                                    rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[2]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if (Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+
+                                    });
+}
+                                if (Opciondia === '4') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);
+                                    });
+                                    rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[3]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if (Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+}
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+
+                                    }); }
+                                if (Opciondia === '5') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);
+                                    });
+                                    rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[4]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if (Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            }); }
+
+                                    }); }
+                                if (Opciondia === '6') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);
+                                    });
+                                    rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[5]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if(Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+                                        }
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+                                        }
+
+                                    }); }
+                                if (Opciondia === '7') {
+                                    funciones.forEach(function (elemento) {
+                                        console.log(elemento);
+                                    });
+                                    rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                        if (Opcionfuncion === '1') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[6]);
+                                                console.log('funcion: ', funciones[0]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+
+                                        }
+                                        if (Opcionfuncion === '2') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[1]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+                                        }
+                                        if (Opcionfuncion === '3') {
+
+                                            rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                console.log('Muchas gracias por su compra');
+                                                console.log('Peliculas seleccionada: ', peli[1]);
+                                                console.log('Teatro seleccionado: ', teatros[2]);
+                                                console.log('dia seleccionado: ', dia[0]);
+                                                console.log('funcion: ', funciones[2]);
+                                                console.log('Cantidad de boletas: ', Qsillas);
+                                                console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                            });
+                                        }
+
+                                    }); }
+                            }); }
+                        });
+}
+                    if (OpcionPeli === '3') {
+                                
+                        teatros.forEach(function (elemento) {
+                            console.log(elemento);});
+
+                        rl.question('Escoge el teatro disponible ', (OpcionTeatro) => {
+                            if (OpcionTeatro === '1') {
+                                dia.forEach(function (elemento) {
+                                    console.log(elemento);
+                                });
+
+                                rl.question('Escoge el dia disponible ', (Opciondia) => {
+
+                                    if (Opciondia === '1') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);});
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ' , Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
                                         });
 
                                     }
-                                    if (Opciondia === '2') { dia[1] }
-                                    if (Opciondia === '3') { dia[2] }
-                                    if (Opciondia === '4') { dia[3] }
-                                    if (Opciondia === '5') { dia[4] }
-                                    if (Opciondia === '6') { dia[5] }
-                                    if (Opciondia === '7') { dia[6] }
+                                    if (Opciondia === '2') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[1]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '3') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[2]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+}
+                                    if (Opciondia === '4') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[3]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+}
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '5') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[4]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '6') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[5]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if(Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                    if (Opciondia === '7') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[6]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
                                 });
-                             }
-                        });
-                    }
-                    if (OpcionPeli === '2') { peli[1] }
-                    if (OpcionPeli === '3') { peli[2] }
-                    if (OpcionPeli === '4') { peli[3] }
-                    if (OpcionPeli === '5') { peli[4] }
+                            }
+                            if (OpcionTeatro === '2') {
+                                dia.forEach(function (elemento) {
+                                    console.log(elemento);
+                                });
+
+                                rl.question('Escoge el dia disponible ', (Opciondia) => {
+
+                                    if (Opciondia === '1') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);});
+                                        rl.question('funciones del teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ' , Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+
+                                    }
+                                    if (Opciondia === '2') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[1]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '3') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[2]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+}
+                                    if (Opciondia === '4') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[3]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+}
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '5') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[4]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '6') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[5]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if(Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                    if (Opciondia === '7') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[6]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                });}
+                            if (OpcionTeatro === '3') {
+                                dia.forEach(function (elemento) {
+                                    console.log(elemento);
+                                });
+
+                                rl.question('Escoge el dia disponible ', (Opciondia) => {
+
+                                    if (Opciondia === '1') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);});
+                                        rl.question('funciones del teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ' , Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+
+                                    }
+                                    if (Opciondia === '2') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[1]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '3') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[2]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+}
+                                    if (Opciondia === '4') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[3]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+}
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '5') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[4]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '6') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[5]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if(Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                    if (Opciondia === '7') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[6]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[2]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                }); }
+                            });
+                        }
+                    if (OpcionPeli === '4') {
+                                
+                        teatros.forEach(function (elemento) {
+                            console.log(elemento);});
+
+                        rl.question('Escoge el teatro disponible ', (OpcionTeatro) => {
+                            if (OpcionTeatro === '1') {
+                                dia.forEach(function (elemento) {
+                                    console.log(elemento);
+                                });
+
+                                rl.question('Escoge el dia disponible ', (Opciondia) => {
+
+                                    if (Opciondia === '1') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);});
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ' , Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+
+                                    }
+                                    if (Opciondia === '2') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[1]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '3') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[2]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+}
+                                    if (Opciondia === '4') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[3]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+}
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '5') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[4]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '6') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[5]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if(Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                    if (Opciondia === '7') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[6]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                });
+                            }
+                            if (OpcionTeatro === '2') {
+                                dia.forEach(function (elemento) {
+                                    console.log(elemento);
+                                });
+
+                                rl.question('Escoge el dia disponible ', (Opciondia) => {
+
+                                    if (Opciondia === '1') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);});
+                                        rl.question('funciones del teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ' , Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+
+                                    }
+                                    if (Opciondia === '2') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[1]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '3') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[2]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+}
+                                    if (Opciondia === '4') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[3]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+}
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '5') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[4]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '6') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[5]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if(Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                    if (Opciondia === '7') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[6]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                });}
+                            if (OpcionTeatro === '3') {
+                                dia.forEach(function (elemento) {
+                                    console.log(elemento);
+                                });
+
+                                rl.question('Escoge el dia disponible ', (Opciondia) => {
+
+                                    if (Opciondia === '1') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);});
+                                        rl.question('funciones del teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ' , Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+
+                                    }
+                                    if (Opciondia === '2') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[1]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '3') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[2]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+}
+                                    if (Opciondia === '4') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[3]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+}
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '5') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[4]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '6') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[5]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if(Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                    if (Opciondia === '7') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[6]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[3]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                }); }
+                            });
+
+                                
+                        teatros.forEach(function (elemento) {
+                            console.log(elemento);});
+
+                        rl.question('Escoge el teatro disponible ', (OpcionTeatro) => {
+                            if (OpcionTeatro === '1') {
+                                dia.forEach(function (elemento) {
+                                    console.log(elemento);
+                                });
+
+                                rl.question('Escoge el dia disponible ', (Opciondia) => {
+
+                                    if (Opciondia === '1') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);});
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ' , Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+
+                                    }
+                                    if (Opciondia === '2') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[1]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '3') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[2]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+}
+                                    if (Opciondia === '4') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[3]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+}
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '5') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[4]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '6') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[5]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if(Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                    if (Opciondia === '7') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[6]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                });
+                            }
+                            if (OpcionTeatro === '2') {
+                                dia.forEach(function (elemento) {
+                                    console.log(elemento);
+                                });
+
+                                rl.question('Escoge el dia disponible ', (Opciondia) => {
+
+                                    if (Opciondia === '1') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);});
+                                        rl.question('funciones del teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ' , Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+
+                                    }
+                                    if (Opciondia === '2') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[1]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '3') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[2]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+}
+                                    if (Opciondia === '4') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[3]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+}
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '5') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[4]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '6') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[5]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if(Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                    if (Opciondia === '7') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[6]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                });}
+                            if (OpcionTeatro === '3') {
+                                dia.forEach(function (elemento) {
+                                    console.log(elemento);
+                                });
+
+                                rl.question('Escoge el dia disponible ', (Opciondia) => {
+
+                                    if (Opciondia === '1') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);});
+                                        rl.question('funciones del teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ' , Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+
+                                    }
+                                    if (Opciondia === '2') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[1]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '3') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[2]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+}
+                                    if (Opciondia === '4') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[3]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+}
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '5') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[4]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '6') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[5]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if(Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                    if (Opciondia === '7') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[6]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                }); }
+                            });
+                                                }
+                    if (OpcionPeli === '5') {
+                                
+                        teatros.forEach(function (elemento) {
+                            console.log(elemento);});
+
+                        rl.question('Escoge el teatro disponible ', (OpcionTeatro) => {
+                            if (OpcionTeatro === '1') {
+                                dia.forEach(function (elemento) {
+                                    console.log(elemento);
+                                });
+
+                                rl.question('Escoge el dia disponible ', (Opciondia) => {
+
+                                    if (Opciondia === '1') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);});
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ' , Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+
+                                    }
+                                    if (Opciondia === '2') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[1]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '3') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[2]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+}
+                                    if (Opciondia === '4') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[3]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+}
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '5') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[4]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '6') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[5]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if(Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                    if (Opciondia === '7') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[6]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[0]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                });
+                            }
+                            if (OpcionTeatro === '2') {
+                                dia.forEach(function (elemento) {
+                                    console.log(elemento);
+                                });
+
+                                rl.question('Escoge el dia disponible ', (Opciondia) => {
+
+                                    if (Opciondia === '1') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);});
+                                        rl.question('funciones del teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ' , Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+
+                                    }
+                                    if (Opciondia === '2') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[1]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '3') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[2]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+}
+                                    if (Opciondia === '4') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[3]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+}
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '5') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[4]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '6') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[5]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if(Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                    if (Opciondia === '7') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[6]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[1]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                });}
+                            if (OpcionTeatro === '3') {
+                                dia.forEach(function (elemento) {
+                                    console.log(elemento);
+                                });
+
+                                rl.question('Escoge el dia disponible ', (Opciondia) => {
+
+                                    if (Opciondia === '1') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);});
+                                        rl.question('funciones del teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ' , Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+
+                                    }
+                                    if (Opciondia === '2') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[1]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '3') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[2]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        });
+}
+                                    if (Opciondia === '4') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[3]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+}
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '5') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[4]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                }); }
+
+                                        }); }
+                                    if (Opciondia === '6') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[5]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if(Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                    if (Opciondia === '7') {
+                                        funciones.forEach(function (elemento) {
+                                            console.log(elemento);
+                                        });
+                                        rl.question('funciones el teatro disponible ', (Opcionfuncion) => {
+                                            if (Opcionfuncion === '1') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[6]);
+                                                    console.log('funcion: ', funciones[0]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+
+                                            }
+                                            if (Opcionfuncion === '2') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[1]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+                                            if (Opcionfuncion === '3') {
+
+                                                rl.question('Cuantas boletas desea adquirir? ', (Qsillas) => {
+                                                    console.log('Muchas gracias por su compra');
+                                                    console.log('Peliculas seleccionada: ', peli[4]);
+                                                    console.log('Teatro seleccionado: ', teatros[2]);
+                                                    console.log('dia seleccionado: ', dia[0]);
+                                                    console.log('funcion: ', funciones[2]);
+                                                    console.log('Cantidad de boletas: ', Qsillas);
+                                                    console.log('Total: ', Qsillas * ValorBotetaQ);
+
+                                                });
+                                            }
+
+                                        }); }
+                                }); }
+                            });
+                        }
                 });
                 
 
